@@ -208,7 +208,7 @@ const Home = () => (
             </Link>
           </ListItem> */}
         </List>
-
+{/* 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
@@ -224,7 +224,7 @@ const Home = () => (
           >
             A Markdown note-taking app
           </GridItem>
-        </SimpleGrid>
+        </SimpleGrid> */}
 
         <Box align="center" my={4}>
           <Button
