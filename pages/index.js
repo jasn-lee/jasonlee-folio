@@ -79,12 +79,16 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+        Hi there! My name's Jason, and I am a student at the University of Arizona 
+          currently studying Film & Television. For the past year, I have been learning
+           3D modeling, texturing, rigging, and rendering in my spare time, and have really
+            loved it so far. I would love to continue in my 3D journey in an internship,
+             especially for the Arizona Diamondbacks. Growing up in Tucson, AZ, I remember
+              watching D-backs baseball (cheering on Goldy and Miggy!) on Fox Sports Arizona 
+              almost every day after school. I'm a big D-backs fan and have some the Motion Graphics
+              experience listed on the job posting. If the opportunity is still available, I would love
+              to help out any way I can! 
+              {/* to help out any way I can!{' '}
           <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
             Inkdrop
           </Link>
@@ -98,7 +102,7 @@ const Home = () => (
           >
             Dev as Life
           </Link>
-          &quot; has more than 100k subscribers.
+          &quot; has more than 100k subscribers. */}
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -113,7 +117,7 @@ const Home = () => (
         </Box>
       </Section>
 
-      <Section delay={0.2}>
+      {/* <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
@@ -135,7 +139,7 @@ const Home = () => (
           <BioYear>2012 to present</BioYear>
           Working as a freelancer
         </BioSection>
-      </Section>
+      </Section> */}
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
@@ -171,13 +175,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="www.linkedin.com/in/jason-lee-0354377718z" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                LinkedIn
               </Button>
             </Link>
           </ListItem>
