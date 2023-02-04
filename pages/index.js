@@ -17,7 +17,8 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoLogoWordpress, BsMailbox2 } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
+import {SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobelightroom} from 'react-icons/si'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -148,7 +149,11 @@ const Home = () => (
         <Paragraph>
           Art, Music,{' '}
           <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+            <Button>
+              variant = "ghost"
+              colorScheme = "teal"
+              leftIcon = {<SiAdobeaftereffects/>}
+            </Button>
           </Link>
           , Playing Drums,{' '}
           <Link href="https://500px.com/p/craftzdog" target="_blank">
@@ -185,17 +190,17 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          {/* <ListItem>
+          <ListItem>
             <Link href="https://twitter.com/craftzdog" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoWordpress />}
+                leftIcon={<SiAdobeaftereffects />}
               >
                 @craftzdog (日本語)
               </Button>
             </Link>
-          </ListItem> */}
+          </ListItem>
           {/* <ListItem>
             <Link href="https://instagram.com/craftzdog" target="_blank">
               <Button
