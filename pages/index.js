@@ -18,7 +18,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
-import {SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobelightroom} from 'react-icons/si'
+import {SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobelightroom, SiAdobepremierepro} from 'react-icons/si'
 import {BsMailbox2} from 'react-icons/bs'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
@@ -145,17 +145,19 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          I ♥ Skills 
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            <Button>
-              variant = "ghost"
-              colorScheme = "teal"
-              leftIcon = {<SiAdobeaftereffects/>}
-            </Button>
-          </Link>
+          <Link href="https://adobe.com" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={< SiAdobepremierepro />}
+              >
+                Premiere Pro
+              </Button>
+            </Link>
           , Playing Drums,{' '}
           <Link href="https://500px.com/p/craftzdog" target="_blank">
             Photography
