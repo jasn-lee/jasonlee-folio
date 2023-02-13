@@ -18,7 +18,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
-import {SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobelightroom, SiAdobepremierepro, SiAutodesk, SiCinema4D} from 'react-icons/si'
+import {SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobelightroom, SiAdobepremierepro, SiAutodesk, SiCinema4D, SiBlender, SiUnrealengine, SiPython, SiR} from 'react-icons/si'
 import {BsMailbox2} from 'react-icons/bs'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
@@ -147,8 +147,8 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           My Skills 
         </Heading>
-        <Paragraph>
-        <Link href="https://autodesk.com" target="_blank">
+          <Paragraph class="indented" >
+                            
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -157,9 +157,7 @@ const Home = () => (
               >
                 Maya
               </Button>
-            </Link>
             •
-          <Link href="https://maxon.net/en/cinema-4d" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -168,26 +166,80 @@ const Home = () => (
               >
                 Cinema 4d
               </Button>
-            </Link>
             • 
-          <Link href="https://adobe.com" target="_blank">
+
+            <Button
+                variant="ghost"
+                colorScheme="teal"
+                size = 'lg'
+                leftIcon={< SiBlender />}
+              >
+                Blender
+              </Button>
+              
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 size = 'lg'
                 leftIcon={< SiAdobepremierepro />}
               >
-                Adobe
+                Premiere Pro
               </Button>
-            </Link>
+          {/* <Link href="https://adobe.com" target="_blank"> */}
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                size = 'lg'
+                leftIcon={< SiAdobeaftereffects />}
+              >
+                After Effects
+              </Button>
+            {/* </Link> */}
             • 
           <Button
               variant="ghost"
               colorScheme="teal"
               size = 'lg'
-              leftIcon={< SiAdobepremierepro />}
+              leftIcon={< SiAdobelightroom />}
             >
-              jhdbv
+              Lightroom
+            </Button>
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+              leftIcon={< SiAdobephotoshop />}
+            >
+              Photoshop
+            </Button>
+
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+              leftIcon={< SiUnrealengine />}
+            >
+              Unreal Engine 5
+            </Button>
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+              leftIcon={< SiPython />}
+            >
+              Python
+            </Button>
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+              leftIcon={< SiR />}
+            >
+              R
             </Button>
           
             
@@ -204,7 +256,7 @@ const Home = () => (
           On the web
         </Heading>
         <List>
-          <ListItem>
+          {/* <ListItem>
             <Link href="https://github.com/jasn-lee" target="_blank">
               <Button
                 variant="ghost"
@@ -214,7 +266,7 @@ const Home = () => (
                 @jasn-lee
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
           <ListItem>
             <Link href="https://linkedin.com/in/jason-lee-0354377718z" target="_blank">
               <Button
