@@ -18,7 +18,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
-import {SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobelightroom, SiAdobepremierepro} from 'react-icons/si'
+import {SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobelightroom, SiAdobepremierepro, SiAutodesk, SiCinema4D} from 'react-icons/si'
 import {BsMailbox2} from 'react-icons/bs'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
@@ -145,19 +145,52 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥ Skills 
+          My Skills 
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
+        <Link href="https://autodesk.com" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                size = 'lg'
+                leftIcon={< SiAutodesk />}
+              >
+                Maya
+              </Button>
+            </Link>
+            •
+          <Link href="https://maxon.net/en/cinema-4d" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                size = 'lg'
+                leftIcon={< SiCinema4D />}
+              >
+                Cinema 4d
+              </Button>
+            </Link>
+            • 
           <Link href="https://adobe.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
+                size = 'lg'
                 leftIcon={< SiAdobepremierepro />}
               >
-                Premiere Pro
+                Adobe
               </Button>
             </Link>
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+              leftIcon={< SiAdobepremierepro />}
+            >
+              jhdbv
+            </Button>
+          
+            
           , Playing Drums,{' '}
           <Link href="https://500px.com/p/craftzdog" target="_blank">
             Photography
