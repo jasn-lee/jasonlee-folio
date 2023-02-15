@@ -241,13 +241,31 @@ const Home = () => (
             >
               R
             </Button>
-          
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+            >
+              RundownCreator
+            </Button>
+            • 
+            <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+            >
+              Ross Synergy 3 Switchboard
+            </Button>
+            • 
+            <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+            >
+              Yamaha O2R96
+            </Button>
             
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
         </Paragraph>
       </Section>
 
