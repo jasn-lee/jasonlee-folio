@@ -147,7 +147,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           My Skills 
         </Heading>
-          <Paragraph class="indented" >
+          <Paragraph>
             <Box
               borderRadius="sm"
               mb={1}
