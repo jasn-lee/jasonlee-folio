@@ -18,7 +18,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
-import {SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobelightroom, SiAdobepremierepro, SiAutodesk, SiCinema4D, SiBlender, SiUnrealengine, SiPython, SiR, SiHtml5} from 'react-icons/si'
+import {SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobelightroom, SiAdobepremierepro, SiAutodesk, SiCinema4D, SiBlender, SiUnrealengine, SiPython, SiR} from 'react-icons/si'
 import {BsMailbox2} from 'react-icons/bs'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
@@ -207,20 +207,20 @@ const Home = () => (
               variant="ghost"
               colorScheme="teal"
               size = 'lg'
-              leftIcon={< SiAdobephotoshop />}
-            >
-              Photoshop
-            </Button>
-            
-            <Button
-              variant="ghost"
-              colorScheme="teal"
-              size = 'lg'
               leftIcon={< SiAdobelightroom />}
             >
               Lightroom
             </Button>
-        
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+              leftIcon={< SiAdobephotoshop />}
+            >
+              Photoshop
+            </Button>
+
             • 
           <Button
               variant="ghost"
@@ -231,15 +231,6 @@ const Home = () => (
               Unreal Engine 5
             </Button>
             • 
-            
-            <Button
-              variant="ghost"
-              colorScheme="teal"
-              size = 'lg'
-              leftIcon={< SiHtml5 />}
-            >
-              HTML
-            </Button>  
           <Button
               variant="ghost"
               colorScheme="teal"
@@ -282,6 +273,123 @@ const Home = () => (
               Yamaha O2R96
             </Button>
             </Box>
+            ohbaby    
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                size = 'lg'
+                leftIcon={< SiAutodesk />}
+              >
+                Maya
+              </Button>
+            •
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                size = 'lg'
+                leftIcon={< SiCinema4D />}
+              >
+                Cinema 4d
+              </Button>
+            • 
+
+            <Button
+                variant="ghost"
+                colorScheme="teal"
+                size = 'lg'
+                leftIcon={< SiBlender />}
+              >
+                Blender
+              </Button>
+              
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                size = 'lg'
+                leftIcon={< SiAdobepremierepro />}
+              >
+                Premiere Pro
+              </Button>
+          {/* <Link href="https://adobe.com" target="_blank"> */}
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                size = 'lg'
+                leftIcon={< SiAdobeaftereffects />}
+              >
+                After Effects
+              </Button>
+            {/* </Link> */}
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+              leftIcon={< SiAdobelightroom />}
+            >
+              Lightroom
+            </Button>
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+              leftIcon={< SiAdobephotoshop />}
+            >
+              Photoshop
+            </Button>
+
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+              leftIcon={< SiUnrealengine />}
+            >
+              Unreal Engine 5
+            </Button>
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+              leftIcon={< SiPython />}
+            >
+              Python
+            </Button>
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+              leftIcon={< SiR />}
+            >
+              R
+            </Button>
+            • 
+          <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+            >
+              RundownCreator
+            </Button>
+            • 
+            <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+            >
+              Ross Synergy 3 Switchboard
+            </Button>
+            • 
+            <Button
+              variant="ghost"
+              colorScheme="teal"
+              size = 'lg'
+            >
+              Yamaha O2R96
+            </Button>
             
         </Paragraph>
       </Section>
