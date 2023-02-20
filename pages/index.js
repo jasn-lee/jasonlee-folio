@@ -147,7 +147,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           My Skills 
         </Heading>
-          <Paragraph>
+          <div>
             <Box
               borderRadius="sm"
               mb={1}
@@ -273,125 +273,9 @@ const Home = () => (
               Yamaha O2R96
             </Button>
             </Box>
-            ohbaby    
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                size = 'lg'
-                leftIcon={< SiAutodesk />}
-              >
-                Maya
-              </Button>
-            •
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                size = 'lg'
-                leftIcon={< SiCinema4D />}
-              >
-                Cinema 4d
-              </Button>
-            • 
-
-            <Button
-                variant="ghost"
-                colorScheme="teal"
-                size = 'lg'
-                leftIcon={< SiBlender />}
-              >
-                Blender
-              </Button>
-              
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                size = 'lg'
-                leftIcon={< SiAdobepremierepro />}
-              >
-                Premiere Pro
-              </Button>
-          {/* <Link href="https://adobe.com" target="_blank"> */}
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                size = 'lg'
-                leftIcon={< SiAdobeaftereffects />}
-              >
-                After Effects
-              </Button>
-            {/* </Link> */}
-            • 
-          <Button
-              variant="ghost"
-              colorScheme="teal"
-              size = 'lg'
-              leftIcon={< SiAdobelightroom />}
-            >
-              Lightroom
-            </Button>
-            • 
-          <Button
-              variant="ghost"
-              colorScheme="teal"
-              size = 'lg'
-              leftIcon={< SiAdobephotoshop />}
-            >
-              Photoshop
-            </Button>
-
-            • 
-          <Button
-              variant="ghost"
-              colorScheme="teal"
-              size = 'lg'
-              leftIcon={< SiUnrealengine />}
-            >
-              Unreal Engine 5
-            </Button>
-            • 
-          <Button
-              variant="ghost"
-              colorScheme="teal"
-              size = 'lg'
-              leftIcon={< SiPython />}
-            >
-              Python
-            </Button>
-            • 
-          <Button
-              variant="ghost"
-              colorScheme="teal"
-              size = 'lg'
-              leftIcon={< SiR />}
-            >
-              R
-            </Button>
-            • 
-          <Button
-              variant="ghost"
-              colorScheme="teal"
-              size = 'lg'
-            >
-              RundownCreator
-            </Button>
-            • 
-            <Button
-              variant="ghost"
-              colorScheme="teal"
-              size = 'lg'
-            >
-              Ross Synergy 3 Switchboard
-            </Button>
-            • 
-            <Button
-              variant="ghost"
-              colorScheme="teal"
-              size = 'lg'
-            >
-              Yamaha O2R96
-            </Button>
             
-        </Paragraph>
+            
+        </div>
       </Section>
 
       <Section delay={0.3}>

@@ -33,7 +33,7 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-        Jason Lee
+        Takuya Matsuyama
         </Text>
       </LogoBox>
 
