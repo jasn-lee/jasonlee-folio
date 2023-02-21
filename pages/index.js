@@ -145,7 +145,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          My Skills 
+        My Skills 
         </Heading>
           <div>
             <Box
@@ -193,6 +193,7 @@ const Home = () => (
                 Premiere Pro
               </Button>
           {/* <Link href="https://adobe.com" target="_blank"> */}
+          •
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -210,8 +211,7 @@ const Home = () => (
               leftIcon={< SiAdobelightroom />}
             >
               Lightroom
-            </Button>
-            • 
+            </Button> 
           <Button
               variant="ghost"
               colorScheme="teal"
@@ -238,8 +238,7 @@ const Home = () => (
               leftIcon={< SiPython />}
             >
               Python
-            </Button>
-            • 
+            </Button> 
           <Button
               variant="ghost"
               colorScheme="teal"
