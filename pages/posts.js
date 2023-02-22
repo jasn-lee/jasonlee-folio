@@ -1,7 +1,9 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
+import { WorkGridItem } from '../components/grid-item'
+import { WorkImage } from '../components/work'
 
 import thumbPortfolio from '../public/images/contents/youtube-how-to-build-portfolio.jpg'
 import thumbHowToUseInkdrop from '../public/images/contents/youtube-how-to-use-inkdrop.jpg'
