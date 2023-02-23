@@ -16,6 +16,8 @@ import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 import thumbworm from '../public/images/contents/wormz_poster_awards.jpg'
+import thumbferb from '../public/images/contents/ferb_lou_awards.jpg'
+
 
 const Experience = () => (
   <Layout title="Experience">
@@ -31,7 +33,7 @@ const Experience = () => (
             encrypted data sync support
           </WorkGridItem> */}
         <Section delay={0.3} >
-          <WorkGridItem id="margelo" thumbnail= {thumbworm} title="Margelo">
+          <WorkGridItem id="margelo" thumbnail= {thumbworm} title="Short Film">
             A website of the elite app development and contracting agency based
             in Austria
           </WorkGridItem>
@@ -39,8 +41,8 @@ const Experience = () => (
         <Section>
           <WorkGridItem
             id="walknote"
-            title="walknote"
-            thumbnail={thumbAmembo}
+            title="Short Film"
+            thumbnail={thumbferb}
           >
             Music recommendation app for iOS
           </WorkGridItem>
