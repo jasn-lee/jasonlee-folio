@@ -15,6 +15,7 @@ import thumbStyly from '../public/images/works/styly_eyecatch.png'
 import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import thumbworm from '../public/images/contents/wormz_poster_awards.jpg'
 
 const Experience = () => (
   <Layout title="Experience">
@@ -24,17 +25,22 @@ const Experience = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkImage src="/images/works/giphy-2.gif" alt="amembo" />
+        {/* <Section> */}
+          {/* <WorkImage src="/images/works/giphy-2.gif" alt="amembo" />
             A Markdown note-taking app with 100+ plugins, cross-platform and
             encrypted data sync support
-          {/* </WorkGridItem> */}
+          </WorkGridItem> */}
+        <Section delay={0.3} >
+          <WorkGridItem id="margelo" thumbnail= {thumbworm} title="Margelo">
+            A website of the elite app development and contracting agency based
+            in Austria
+          </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
             id="walknote"
             title="walknote"
-            thumbnail={thumbWalknote}
+            thumbnail={thumbAmembo}
           >
             Music recommendation app for iOS
           </WorkGridItem>
