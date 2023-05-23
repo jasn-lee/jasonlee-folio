@@ -40,7 +40,7 @@ const Experience = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
+            id="walknote"                  
             title="Short Film"
             thumbnail={thumbferb}
           >
